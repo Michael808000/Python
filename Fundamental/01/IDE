@@ -1,0 +1,31 @@
+通用IDE / 文本编辑器
+很多并非集成开发环境软件的文本编辑器，也对Python有不同程度的支持，并且加上专门为Python设计的编辑器插件也会有很高的可用性。
+Eclipse + pydev插件，目前对Python 3.X只支持到3.0
+emacs +插件
+NetBeans +插件
+SlickEdit
+TextMate
+Python Tools for Visual Studio
+Visual Studio Code +插件
+Vim +插件
+Sublime Text +插件
+EditPlus
+UltraEdit
+PSPad
+Editra，由Python开发的程序编辑器。
+Notepad++
+
+
+专门为Python设计的IDE软件[编辑]
+适用于Python的集成开发环境（IDE）软件，除了标准二进制发布包所附的IDLE之外，还有许多其他选择。其中有些软件设计有语法着色、语法检查、运行调试、自动补全、智能感知等便利功能。由于Python的跨平台出身，这些软件往往也具备各种操作系统的版本或一定的移植性。
+Anaconda：适用于windows和Linux等多个平台，采用conda对其包管理，随软件打包了许多科学计算的第三方Python库。
+Eric：基于PyQt的自由软件。支持自动补全、智能感知、自动语法检查、工程管理、svn/mercurial集成、自动单元测试等功能，具有可扩展的插件系统，通过可选插件支持Git集成。调试功能与Visual Studio和Eclipse类似。当前版本为Eric6，可同时支持Python2.x和Python3.x，以及PyQt4和PyQt5。使用前需要先安装相应的Python和PyQt版本。
+IDLE：Python“标准”IDE。一般随Python而安装，支持较少的编辑功能。调试功能也比较弱。
+Komodo和Komodo Edit：后者是前者的免费精简版。也可以用于PHP，Ruby，Javascript，Perl，Web和云开发。
+PyCharm：由JetBrains打造，该公司的Java IDE软件IntelliJ（此软件也有Python开发插件）拥有海量的用户；PyCharm具备一般IDE的功能，比如，调试、语法高亮、Project管理、代码跳转、智能提示、自动完成、单元测试、版本控制等等，同时另外，PyCharm还提供了一些很好的功能用于Django开发，同时支持Google App Engine，PyCharm也支持IronPython。PyCharm是商业软件，但也具有社区版和教育版。
+PyScripter：功能较全的开源IDE，使用Delphi开发。
+PythonWin：包含在pywin32内的编辑器，仅适用于Windows。
+SPE（Stani's Python Editor）：功能较多的免费软件，依赖wxPython。
+Spyder：开源的跨平台科学计算IDE。
+Ulipad：功能较全的免费软件，依赖wxPython。
+WingIDE：商业软件，有免费的Wing IDE 101，功能有限，适用于入门者教学。
