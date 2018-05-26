@@ -1,0 +1,41 @@
+Ipython 解释器
+进入ipython
+通常我们并不使用Python自带的解释器，而是使用另一个比较方便的解释器——ipython解释器，命令行下输入：
+
+ipython
+
+即可进入ipython解释器。
+
+所有在python解释器下可以运行的代码都可以在ipython解释器下运行
+
+ipython magic命令
+ipython解释器提供了很多以百分号%开头的magic命令，这些命令很像linux系统下的命令行命令（事实上有些是一样的）。
+
+查看所有的magic命令：
+bogon:~ michael$ ipython
+Python 3.6.5 (v3.6.5:f59c0932b4, Mar 28 2018, 05:52:31) 
+Type 'copyright', 'credits' or 'license' for more information
+IPython 6.4.0 -- An enhanced Interactive Python. Type '?' for help.
+
+In [1]: %lsmagic
+Out[1]: 
+Available line magics:
+%alias  %alias_magic  %autocall  %autoindent  %automagic  %bookmark  %cat  %cd  %clear  %colors  %config  %cp  %cpaste  %debug  %dhist  %dirs  %doctest_mode  %ed  %edit  %env  %gui  %hist  %history  %killbgscripts  %ldir  %less  %lf  %lk  %ll  %load  %load_ext  %loadpy  %logoff  %logon  %logstart  %logstate  %logstop  %ls  %lsmagic  %lx  %macro  %magic  %man  %matplotlib  %mkdir  %more  %mv  %notebook  %page  %paste  %pastebin  %pdb  %pdef  %pdoc  %pfile  %pinfo  %pinfo2  %popd  %pprint  %precision  %profile  %prun  %psearch  %psource  %pushd  %pwd  %pycat  %pylab  %quickref  %recall  %rehashx  %reload_ext  %rep  %rerun  %reset  %reset_selective  %rm  %rmdir  %run  %save  %sc  %set_env  %store  %sx  %system  %tb  %time  %timeit  %unalias  %unload_ext  %who  %who_ls  %whos  %xdel  %xmode
+
+Available cell magics:
+%%!  %%HTML  %%SVG  %%bash  %%capture  %%debug  %%file  %%html  %%javascript  %%js  %%latex  %%markdown  %%perl  %%prun  %%pypy  %%python  %%python2  %%python3  %%ruby  %%script  %%sh  %%svg  %%sx  %%system  %%time  %%timeit  %%writefile
+
+Automagic is ON, % prefix IS NOT needed for line magics.
+
+ipython 使用
+使用 ? 查看函数的帮助
+In [2]: sum?
+Signature: sum(iterable, start=0, /)
+Docstring:
+Return the sum of a 'start' value (default: 0) plus an iterable of numbers
+
+When the iterable is empty, return the start value.
+This function is intended specifically for use with numeric values and may
+reject non-numeric types.
+Type:      builtin_function_or_method
+
