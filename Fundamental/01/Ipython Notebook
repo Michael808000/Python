@@ -1,0 +1,15 @@
+在命令行下输入命令：
+ipython notebook
+
+会打开一个notebook本地服务器，一般地址是 http://localhost:8888
+ipython notebook 支持两种模式的cell：
+Markdown
+Code
+
+
+Error met:
+ImportError: No module named notebook.notebookapp
+
+For 4.0 and above You need to install the notebook app separately from https://github.com/jupyter/notebook
+
+pip install jupyter
