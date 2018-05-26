@@ -1,0 +1,38 @@
+Python：
+
+Python的创始人为吉多·范罗苏姆。1989年的圣诞节期间，吉多·范罗苏姆为了在阿姆斯特丹打发时间，决心开发一个新的脚本解释程序，作为ABC语言的一种继承。之所以选中Python作为程序的名字，是因为他是BBC电视剧——蒙提·派森的飞行马戏团的爱好者。
+
+1.高级编程语言，属于通用型编程语言。可以视为一种改良（加入了一些其他编程语言的优点，如面向对象）的LISP.
+2.解释性语言， 可读性 和简洁的语法
+3.拥有动态类型系统和垃圾回收功能，能够自动管理内存的使用，并且支持多种编程范式，包括面向对象、命令式，函数式和过程式编程。本身拥有一个巨大广泛的标准库
+4.正式的解释器Cpython是用C语言编写，由社区驱动的自由软件，目前由Python软件基金会管理
+
+>>>import this
+The Zen of Python
+by Tim Peters
+Beautiful is better than ugly.
+Explicit is better than implicit.
+Simple is better than complex.
+Complex is better than complicated.
+Flat is better than nested.
+Sparse is better than dense.
+Readability counts.
+Special cases aren't special enough to break the rules.
+Although practicality beats purity.
+Errors should never pass silently.
+Unless explicitly silenced.
+In the face of ambiguity, refuse the temptation to guess.
+There should be one-- and preferably only one --obvious way to do it.
+Although that way may not be obvious at first unless you're Dutch.
+Now is better than never.
+Although never is often better than *right* now.
+If the implementation is hard to explain, it's a bad idea.
+If the implementation is easy to explain, it may be a good idea.
+Namespaces are one honking great idea -- let's do more of those!
+--From: Python.org
+
+应用范围
+1.Web程序
+2.GUI
+3.操作系统
+4.其他： NumPy、SciPy、Matplotlib可以让Python程序员编写科学计算程序
